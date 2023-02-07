@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 				 //dryRun = true,
 				 // tags = ("@Purchase"),
 				 plugin = {"html:Reports/htmlfile.html","json:Reports/jsonfile.json" ,
-						 //"com.cucumber.listener.ExtentCucumberFormatter:Reports/Extent.html"
+						 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 						 } )
 
 public class Test_Runner {
