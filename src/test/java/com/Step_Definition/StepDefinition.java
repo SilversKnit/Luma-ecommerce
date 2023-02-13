@@ -43,7 +43,6 @@ public class StepDefinition extends BaseClass{
 			byte[] TakenSShot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
 			s.attach(TakenSShot, "image/png", "err scrn");
 		}
-		
 	}
 	
 	

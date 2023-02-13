@@ -31,7 +31,7 @@ public class BaseClass {
 		
 		if(browserlaunch.equalsIgnoreCase("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+".\\Driver\\ChromeDriver 108.0.5359.71.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+".\\Driver\\ChromeDriver 109.0.5414.74.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			
