@@ -31,7 +31,8 @@ public class BaseClass {
 		
 		if(browserlaunch.equalsIgnoreCase("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+".\\Driver\\ChromeDriver 109.0.5414.74.exe");
+			System.setProperty("webdriver.chrome.driver",
+					"C:\\Users\\Ragul S\\eclipse-workspace\\Maven-project-5practice-cucumber\\Driver\\ChromeDriver 110.0.5481.77.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			
